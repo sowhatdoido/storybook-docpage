@@ -1,0 +1,26 @@
+{
+  "name": "storybook-docpage",
+  "version": "1.0.0",
+  "description": "Custom DocPage definition for Storybook's Docs Addon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && cross-env NODE_ENV=production babel src --out-dir dist --copy-files --no-copy-ignored"
+  },
+  "author": "",
+  "files": [
+    "dist/"
+  ],
+  "license": "ISC",
+  "peerDependencies": {
+    "@storybook/addon-docs": "^5.3.19",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "babel-preset-react-app": "^9.1.2",
+    "cross-env": "^7.0.2"
+  }
+}
