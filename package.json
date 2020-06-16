@@ -7,7 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf dist && cross-env NODE_ENV=production babel src --out-dir dist --copy-files --no-copy-ignored"
   },
-  "author": "",
+  "author": {
+    "name": "Frank Tran",
+    "url": "https://github.com/sowhatdoido"
+  },
   "files": [
     "dist/"
   ],
